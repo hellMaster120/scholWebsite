@@ -1,0 +1,421 @@
+body{
+	background-color:rgb(27,27,27);
+}
+
+#Hedder-Box{
+	opacity:0;
+	position: absolute;
+	width:99%;
+	height:200px;
+	background:url('https://www.itl.cat/pngfile/big/14-147180_hd-deep-blue-space-wallpaper-high-resolution-space.jpg') no-repeat center center fixed;
+	background-size: cover;
+	transition-property: opacity;
+  	transition-duration: 5s;
+}
+
+#Hedder-MainText{
+	opacity:0;
+	color:black;
+	text-align: center;
+	font-size: 40px;
+	color:cyan;
+	transition-property: opacity;
+  	transition-duration: 5s;
+}
+
+#Hedder-SeccondText{
+	opacity:0;
+	color:black;
+	display:block;
+	font-size: 20px;
+	text-align: center;
+	color:red;
+	transition-property: opacity;
+  	transition-duration: 5s;
+}
+
+#Thing1IMG1{
+	position:absolute;
+	width:400px;
+	height:auto;
+	top:280px;
+	left:5%;
+	right:0%;
+	bottom:auto;
+	border-style: solid;
+	border-radius: 20px;
+	animation: colorRotate 6s linear 0s infinite;
+	opacity:0;
+	transition-property: opacity;
+  	transition-duration: 5s;
+}
+
+#Thing1IMG2{
+	position:absolute;
+	width:400px;
+	height:auto;
+	top:280px;
+	bottom:auto;
+	left:35%;
+	right:auto;
+	border-style: solid;
+	border-radius: 20px;
+	animation: colorRotate 6s linear 0s infinite;
+	opacity:0;
+	transition-property: opacity;
+  	transition-duration: 5s;
+}
+
+#Thing1IMG3{
+	position:absolute;
+	width:400px;
+	height:auto;
+	top:280px;
+	bottom:auto;
+	left:65%;
+	right:auto;	
+	border-style: solid;
+	border-radius: 20px;
+	animation: colorRotate 6s linear 0s infinite;
+	opacity:0;
+	transition-property: opacity;
+  	transition-duration: 5s;
+} 
+
+#Thing2IMG1{
+	position:absolute;
+	width:400px;
+	height:auto;
+	top:550px;
+	left:5%;
+	right:0%;
+	bottom:auto;
+	border-style: solid;
+	border-radius: 20px;
+	animation: colorRotate 6s linear 0s infinite;
+	opacity:0;
+	transition-property: opacity;
+  	transition-duration: 5s;
+}
+
+#Thing2IMG2{
+	position:absolute;
+	width:400px;
+	height:auto;
+	top:550px;
+	bottom:auto;
+	left:35%;
+	right:auto;
+	border-style: solid;
+	border-radius: 20px;
+	animation: colorRotate 6s linear 0s infinite;
+	opacity:0;
+	transition-property: opacity;
+  	transition-duration: 5s;
+}
+
+#Thing2IMG3{
+	position:absolute;
+	width:400px;
+	height:auto;
+	top:550px;
+	bottom:auto;
+	left:65%;
+	right:auto;	
+	border-style: solid;
+	border-radius: 20px;
+	animation: colorRotate 6s linear 0s infinite;
+	opacity:0;
+	transition-property: opacity;
+  	transition-duration: 5s;
+}
+
+#Thing3IMG1{
+	position:absolute;
+	width:400px;
+	height:auto;
+	top:820px;
+	left:5%;
+	right:0%;
+	bottom:auto;
+	border-style: solid;
+	border-radius: 20px;
+	animation: colorRotate 6s linear 0s infinite;
+	opacity:0;
+	transition-property: opacity;
+  	transition-duration: 5s;
+}
+
+#Thing3IMG2{
+	position:absolute;
+	width:400px;
+	height:auto;
+	top:820px;
+	bottom:auto;
+	left:35%;
+	right:auto;
+	border-style: solid;
+	border-radius: 20px;
+	animation: colorRotate 6s linear 0s infinite;
+	opacity:0;
+	transition-property: opacity;
+  	transition-duration: 5s;
+}
+
+#Thing3IMG3{
+	position:absolute;
+	width:400px;
+	height:auto;
+	top:820px;
+	bottom:auto;
+	left:65%;
+	right:auto;	
+	border-style: solid;
+	border-radius: 20px;
+	animation: colorRotate 6s linear 0s infinite;
+	opacity:0;
+	transition-property: opacity;
+  	transition-duration: 5s;
+}
+
+#Thing4IMG1{
+	position:absolute;
+	width:400px;
+	height:auto;
+	top:1090px;
+	left:5%;
+	right:0%;
+	bottom:auto;
+	border-style: solid;
+	border-radius: 20px;
+	animation: colorRotate 6s linear 0s infinite;
+	opacity:0;
+	transition-property: opacity;
+  	transition-duration: 5s;
+}
+
+#Thing4IMG2{
+	position:absolute;
+	width:400px;
+	height:auto;
+	top:1090px;
+	bottom:auto;
+	left:35%;
+	right:auto;
+	border-style: solid;
+	border-radius: 20px;
+	animation: colorRotate 6s linear 0s infinite;
+	opacity:0;
+	transition-property: opacity;
+  	transition-duration: 5s;
+}
+
+#Thing4IMG3{
+	position:absolute;
+	width:400px;
+	height:auto;
+	top:1090px;
+	bottom:auto;
+	left:65%;
+	right:auto;	
+	border-style: solid;
+	border-radius: 20px;
+	animation: colorRotate 6s linear 0s infinite;
+	opacity:0;
+	transition-property: opacity;
+  	transition-duration: 5s;
+}
+
+#Thing5IMG1{
+	position:absolute;
+	width:400px;
+	height:auto;
+	top:1360px;
+	left:5%;
+	right:0%;
+	bottom:auto;
+	border-style: solid;
+	border-radius: 20px;
+	animation: colorRotate 6s linear 0s infinite;
+	opacity:0;
+	transition-property: opacity;
+  	transition-duration: 5s;
+}
+
+#Thing5IMG2{
+	position:absolute;
+	width:400px;
+	height:auto;
+	top:1360px;
+	bottom:auto;
+	left:35%;
+	right:auto;
+	border-style: solid;
+	border-radius: 20px;
+	animation: colorRotate 6s linear 0s infinite;
+	opacity:0;
+	transition-property: opacity;
+  	transition-duration: 5s;
+}
+
+#Thing5IMG3{
+	position:absolute;
+	width:400px;
+	height:auto;
+	top:1360px;
+	bottom:auto;
+	left:65%;
+	right:auto;	
+	border-style: solid;
+	border-radius: 20px;
+	animation: colorRotate 6s linear 0s infinite;
+	opacity:0;
+	transition-property: opacity;
+  	transition-duration: 5s;
+}
+
+#Thing6IMG1{
+	position:absolute;
+	width:400px;
+	height:auto;
+	top:1630px;
+	left:5%;
+	right:0%;
+	bottom:auto;
+	border-style: solid;
+	border-radius: 20px;
+	animation: colorRotate 6s linear 0s infinite;
+	opacity:0;
+	transition-property: opacity;
+  	transition-duration: 5s;
+}
+
+#Thing6IMG2{
+	position:absolute;
+	width:400px;
+	height:auto;
+	top:1630px;
+	bottom:auto;
+	left:35%;
+	right:auto;
+	border-style: solid;
+	border-radius: 20px;
+	animation: colorRotate 6s linear 0s infinite;
+	opacity:0;
+	transition-property: opacity;
+  	transition-duration: 5s;
+}
+
+#Thing6IMG3{
+	position:absolute;
+	width:400px;
+	height:auto;
+	top:1630px;
+	bottom:auto;
+	left:65%;
+	right:auto;	
+	border-style: solid;
+	border-radius: 20px;
+	animation: colorRotate 6s linear 0s infinite;
+	opacity:0;
+	transition-property: opacity;
+  	transition-duration: 5s;
+}
+
+#Thing7IMG1{
+	position:absolute;
+	width:400px;
+	height:auto;
+	top:1900px;
+	left:5%;
+	right:0%;
+	bottom:auto;
+	border-style: solid;
+	border-radius: 20px;
+	animation: colorRotate 6s linear 0s infinite;
+	opacity:0;
+	transition-property: opacity;
+  	transition-duration: 5s;
+}
+
+#Thing7IMG2{
+	position:absolute;
+	width:400px;
+	height:auto;
+	top:1900px;
+	bottom:auto;
+	left:35%;
+	right:auto;
+	border-style: solid;
+	border-radius: 20px;
+	animation: colorRotate 6s linear 0s infinite;
+	opacity:0;
+	transition-property: opacity;
+  	transition-duration: 5s;
+}
+
+#Thing7IMG3{
+	position:absolute;
+	width:400px;
+	height:auto;
+	top:1900px;
+	bottom:auto;
+	left:65%;
+	right:auto;	
+	border-style: solid;
+	border-radius: 20px;
+	animation: colorRotate 6s linear 0s infinite;
+	opacity:0;
+	transition-property: opacity;
+  	transition-duration: 5s;
+}
+
+#Thing8IMG1{
+	position:absolute;
+	width:400px;
+	height:auto;
+	top:2170px;
+	left:5%;
+	right:0%;
+	bottom:auto;
+	border-style: solid;
+	border-radius: 20px;
+	animation: colorRotate 6s linear 0s infinite;
+	opacity:0;
+	transition-property: opacity;
+  	transition-duration: 5s;
+}
+
+#Thing8IMG2{
+	position:absolute;
+	width:400px;
+	height:auto;
+	top:2170px;
+	bottom:auto;
+	left:35%;
+	right:auto;
+	border-style: solid;
+	border-radius: 20px;
+	animation: colorRotate 6s linear 0s infinite;
+	opacity:0;
+	transition-property: opacity;
+  	transition-duration: 5s;
+}
+
+@keyframes colorRotate {
+  from {
+    border-color: #6666ff;
+  }
+  10% {
+    border-color: #0099ff;
+  }
+  50% {
+    border-color: #00ff00;
+  }
+  75% {
+    border-color: #ff3399;
+  }
+  100% {
+    border-color: #6666ff;
+  }
+}
